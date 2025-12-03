@@ -47,7 +47,7 @@ tabelle:
 -cognome_studenti
 
 
-#inscrizione_esame
+#studenti_esame
 -studenti_id
 -esame_id
 -data

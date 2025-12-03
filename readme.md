@@ -25,10 +25,12 @@ tabelle:
 -appelli_esami
 -libri
 
+
 #insegnanti
 -insegnanti_id
 -nome_insegnante
 -cognome_insegnante
+
 
 #esame
 -esame_id
@@ -37,11 +39,21 @@ tabelle:
 -ora
 -luogo
 
+
 #studenti
 -studenti_id
 -corso_di_laurea_id
 -nome_studenti
 -cognome_studenti
+
+
+#inscrizione_esame
+-studenti_id
+-esame_id
+-data
+-ora
+-luogo
+-esito 
 
 
 

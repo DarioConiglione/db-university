@@ -1,13 +1,14 @@
 tabelle:
 
 #dipartimenti
--id
+-dipartimenti_id
 -nome_dipartimento
 -codice
 -piani_formativi
 
-#corsi di laurea
--id
+
+#corsi_di_laurea
+-corsi_di_laurea_id
 -dipartimenti_id
 -nome
 -presidente
@@ -15,32 +16,32 @@ tabelle:
 -corsi
 -qualifica
 
+
 #corsi
--id
+-corsi_id
 -corsi_di_laurea_id
--insegnante_id
--nome
+-nome_corso
 -piano_di_studio
 -appelli_esami
 -libri
 
 #insegnanti
--id
--nome
--cognome
+-insegnanti_id
+-nome_insegnante
+-cognome_insegnante
 
-#appelli
--id
+#esame
+-esame_id
 -corsi_id
 -data
 -ora
 -luogo
 
 #studenti
--id
+-studenti_id
 -corso_di_laurea_id
--nome
--cognome
+-nome_studenti
+-cognome_studenti
 
 
 
